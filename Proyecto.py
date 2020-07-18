@@ -3,8 +3,6 @@ dic = {'1' : 'Camarada Vodka' , '2' : 'Sargento cerveza' , '3' : 'Capitan Aguard
 
 contador = random.randint(1, 7)
 
-
-
 estatus = dic.get(f'{contador}')
 
 nombre = input('Ingrese el nombre suyo :')
